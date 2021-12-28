@@ -1,0 +1,43 @@
+.nav-item{
+    color: white;
+}
+body{
+    background-color: burlywood;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    color: black;
+    min-height: 60vh;
+    background-color: #96f0b6;
+    margin-top: 2vw;
+}
+.songsItem{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    border-radius: 4vw;
+    align-items: center;
+    margin: 1vw;
+}
+.songsItem img{
+    margin-left: 2vw;
+}
+.gif img{
+    border-radius: 3vw;
+    width: 5vw;
+    opacity: 0;
+    transition:opacity 0.3s ease-in;
+}
+.fa-play-circle{
+    margin-right: 2vw;
+}
+.bottom{
+    background-color: black;
+    color: white;
+    min-height: 18vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
